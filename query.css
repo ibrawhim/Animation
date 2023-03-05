@@ -1,0 +1,147 @@
+@media screen and (max-width: 475px) {
+    html, body {
+        background-repeat: no-repeat;
+        background-position: -10px -55px;
+        background-size: 1500px;
+        overflow: hidden;
+    }
+
+    .plane {
+        position: relative;
+        top: -820px;
+        width: 170px;
+        animation: plane 7s infinite ease-in-out;
+    }
+    @keyframes plane {
+        from {
+            transform: translateX(-1000px);
+        }
+        to {
+            transform: translateX(800px);
+        }
+    }
+
+    .man1 {
+        margin-top:430px;
+        height: 90px;
+        z-index: 1;
+        animation: man 10s infinite ease-in-out;
+    }
+    @keyframes man {
+        from {
+            transform: translateX(-100px);
+        }
+        to {
+            transform: translateX(1300px);
+        }
+    }
+
+    .redcar {
+        position: relative;
+        top: 80px;
+        width: 200px;
+        z-index: 1;
+        animation: redcar 3s ease-in-out infinite;
+    }
+    @keyframes redcar {
+        from {
+            transform: translateX(1300px);
+        }
+        to {
+            transform: translateX(-1400px);
+        }
+    }
+
+    .truck {
+        position: relative;
+        width: 230px;
+        top: -10px;
+        left: 0px;
+        animation: truck 6s infinite ease-in-out;
+    }
+    @keyframes truck {
+        from {
+            transform: translateX(-600px);
+        }
+        to {
+            transform: translateX(1300px);
+        }
+    }
+
+    .van {
+        position: relative;
+        width: 180px;
+        top: -130px;
+        left: 0px;
+        animation: van 5.5s infinite ease-in-out;
+    }
+    @keyframes van {
+        from {
+            transform: translateX(-900px);
+        }
+        to {
+            transform: translateX(1300px);
+        }
+    }
+    .bike {
+        position: relative;
+        width: 50px;
+        top: -239px;
+        left: 0px;
+        animation: bike 10s infinite;
+    }
+    @keyframes bike {
+        from {
+            transform: translateX(1300px);
+        }
+        to {
+            transform: translateX(-1000px);
+        }
+    }
+
+    .bluecar {
+        position: relative;
+        top: -300px;
+        width: 190px;
+        z-index: 1;
+        animation: bluecar 4s infinite ease-in-out;
+    }
+    @keyframes bluecar {
+        from {
+            transform: translateX(1000px);
+        }
+        to {
+            transform: translateX(-1400px);
+        }
+    }
+
+    .woman {
+        position: relative;
+        top: -470px;
+        height: 90px;
+        animation: woman 17s infinite;
+    }
+    @keyframes woman {
+        from {
+            transform: translateX(1300px);
+        }
+        to {
+            transform: translateX(-200px);
+        }
+    }
+
+    .chopper {
+        position: relative;
+        width: 100px;
+        top: -570px;
+        animation: chopper 7s infinite ease-in-out;
+    }
+    @keyframes chopper {
+        from {
+            transform: translateX(800px);
+        }
+        to {
+            transform: translateX(-800px);
+        }
+    }
+}

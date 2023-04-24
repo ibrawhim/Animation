@@ -1,10 +1,11 @@
 body {
     overflow: hidden;
     background-image: url(./images/maxresdefault.jpg);
+    background-size: 100%;
     position: absolute;
 }
 .man1 {
-    margin-top:390px;
+    margin-top:235px;
     height: 90px;
     animation: man 20s infinite ease-in-out;
 }
@@ -31,21 +32,21 @@ body {
 }
 .woman {
     position: relative;
-    top: -90px;
+    top: -100px;
     height: 90px;
-    animation: woman 17s infinite;
+    animation: woman 35s infinite;
 }
 @keyframes woman {
     from {
         transform: translateX(1300px);
     }
     to {
-        transform: translateX(-200px);
+        transform: translateX(-1200px);
     }
 }
 .redcar {
     position: relative;
-    top: 125px;
+    top: 115px;
     width: 200px;
     z-index: 1;
     animation: redcar 4s ease-in-out infinite;
@@ -61,7 +62,7 @@ body {
 .truck {
     position: relative;
     width: 230px;
-    top: 120px;
+    top: 100px;
     left: 0px;
     animation: truck 6s infinite ease-in-out;
 }
@@ -91,7 +92,7 @@ body {
 .van {
     position: relative;
     width: 180px;
-    top: 90px;
+    top: 50px;
     left: 0px;
     animation: van 5.5s infinite ease-in-out;
 }
@@ -120,10 +121,10 @@ body {
 }
 .bluecar {
     position: relative;
-    top: 125px;
+    top: 65px;
     width: 190px;
     z-index: 1;
-    animation: bluecar 4s infinite ease-in-out;
+    animation: bluecar 14s infinite ease-in-out;
 }
 @keyframes bluecar {
     from {
